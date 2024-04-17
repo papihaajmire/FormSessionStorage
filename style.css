@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    
+}
+
+#container {
+    width: 100vw;
+    height: 100vh;
+    /* margin: 0 auto; */
+    text-align: center;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.form {
+    display: none;
+}
+
+#dashboard {
+    display: none;
+}
+#registrationForm{
+    margin-top: 50px;
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(35, 74, 146);
+    color: chocolate;
+    box-shadow: 3px 3px 3px 3px rgb(7, 22, 44);
+}
+#registrationForm a{
+    color: white;
+}
+
+#loginForm{
+    margin-top: 50px;
+    height: 200px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(35, 74, 146);
+    color: chocolate;
+    box-shadow: 3px 3px 3px 3px rgb(7, 22, 44);
+}
+
+#loginForm a{
+    color: white;
+}
+#userInfo{
+    width: 100%;
+    border: 1px solid black;
+}
+tr{
+    border: 1px solid black;
+    background-color: floralwhite;
+}
+th{
+    border: 1px solid black;
+}
+button{
+    background-color: chocolate;
+    
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
